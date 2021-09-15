@@ -1,5 +1,4 @@
 body {
-    width: 100%;
     background-image: url('../images/1.png');
     background-size: 50% 100%;
     /* background-color: #000000; */
@@ -9,10 +8,10 @@ body {
 .links {
     text-decoration: none;
     color: white;
-    padding: 16px 20px;
+    padding: 1rem 1.25rem;
     border: 3px white solid;
-    border-radius: 24px;
-    margin-bottom: 10px;
+    border-radius: 1.5rem;
+    margin-bottom: .625rem;
     transition: .5s;
 }
 
@@ -33,11 +32,17 @@ body {
     }
 }
 
+@media screen and (max-width: 499px) {
+    .links:last-child {
+        margin-bottom: 1.25rem;
+    }
+}
+
 .main-img {
-    width: 100px;
-    height: 100px;
+    width: 6.25rem;
+    height: 6.25rem;
     border-radius: 50%;
-    margin-bottom: 10px;
+    margin-bottom: .625rem;
 }
 
 p {

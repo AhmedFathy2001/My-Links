@@ -1,6 +1,11 @@
+html {
+    font-size: calc(0.625vmin + 0.75rem)
+}
+
 body {
     background-image: url('../images/1.png');
     background-size: 50% 100%;
+    font-weight: bold;
     /* background-color: #000000; */
     /* background-image: linear-gradient(147deg, #000000 0%, #04619f 74%); */
 }
@@ -32,19 +37,9 @@ body {
     }
 }
 
-@media screen and (max-width: 499px) {
-    .links:last-child {
-        margin-bottom: 1.25rem;
-    }
-}
-
 .main-img {
     width: 6.25rem;
     height: 6.25rem;
     border-radius: 50%;
     margin-bottom: .625rem;
-}
-
-p {
-    margin-bottom: 0px;
 }

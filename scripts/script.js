@@ -9,7 +9,7 @@ const links = [{
     "title": 'CRUD System'
 }, {
     "link": "https://jsdemoapps.w3spaces.com/index.html?bypass-cache=1630176699",
-    "title": 'first js application (Not designed to support responsive)'
+    "title": 'First js application (Not responsive)'
 }, {
     "link": "https://ahmedfathydemosites.w3spaces.com/Bezel.html?bypass-cache=1629515424",
     "title": 'Forth website (made only in 15 hours)'
@@ -24,17 +24,55 @@ const links = [{
     "title": 'First site (the first ever site i created)'
 }]
 
-const container = document.getElementById('container')
+const myLinks = document.getElementById('myLinks')
 
 for (const link in links) {
+    const listTag = document.createElement('li')
     const anchorTag = document.createElement('a')
     anchorTag.setAttribute("href", links[link].link)
+    console.log(links[link].title.length);
+    if(links[link].title.length > 25) listTag.classList.add('grid-two')
     anchorTag.innerText = links[link].title
-    container.appendChild(anchorTag);
+    myLinks.appendChild(listTag)
+    listTag.appendChild(anchorTag);
 }
 var anchors = document.querySelectorAll('a');
 
 [].forEach.call(anchors, function(a) {
     a.classList.add('links')
+});
+const lastLi = document.createElement('li')
+myLinks.appendChild(lastLi)
+lastLi.style.marginTop = 1.5 + 'rem'
+lastLi.classList.add('grid-two')
+const socialLinks = [{
+    'socialLink': 'https://www.instagram.com/ahmedfathy2001/',
+    'icon': 'fa-instagram'
+}, {
+    'socialLink': 'https://twitter.com/ahmedfathy_2001',
+    'icon': 'fa-twitter'
+}, {
+    'socialLink': 'https://www.linkedin.com/in/ahmed-fathy-a112511b4/',
+    'icon': 'fa-linkedin-in'
+}, {
+    'socialLink': 'https://discord.com/users/452192923199733781',
+    'icon': 'fa-discord'
+}]
+for (const socialLink in socialLinks) {
+    const socialAnchor = document.createElement('a')
+    const socialList = document.createElement('li')
+    const icon = document.createElement('i')
+    socialAnchor.setAttribute('href', socialLinks[socialLink].socialLink)
+    icon.classList.add('fab')
+    icon.classList.add(socialLinks[socialLink].icon)
+    socialList.classList.add('list-styling')
+    socialAnchor.appendChild(icon)
+    socialAnchor.style.color = 'white'
+    socialList.appendChild(socialAnchor)
+    lastLi.appendChild(socialList)
+}
+var socialAnchors = document.querySelectorAll('a');
+
+[].forEach.call(socialAnchors, function(a) {
     a.setAttribute('target', '_blank')
 });

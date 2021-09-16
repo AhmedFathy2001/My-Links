@@ -13,7 +13,7 @@ const links = [{
     "title": 'First js application (Not responsive)'
 }, {
     "link": "https://ahmedfathydemosites.w3spaces.com/Bezel.html?bypass-cache=1629515424",
-    "title": 'Forth website (made only in 15 hours)'
+    "title": 'Fourth website (made only in 15 hours)'
 }, {
     "link": "https://ahmedfathydemosites.w3spaces.com/Devfolio.html?bypass-cache=1629617546",
     "title": 'Third website'

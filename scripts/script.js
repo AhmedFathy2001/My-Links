@@ -1,3 +1,4 @@
+//Array of Objects holding anchor links and there titles
 const links = [{
     "link": "https://jsdemoapps.w3spaces.com/slider.html?bypass-cache=1631452387",
     "title": 'Vanilla js slider with touch support'
@@ -25,39 +26,45 @@ const links = [{
 }]
 
 const myLinks = document.getElementById('myLinks')
-
+    //looping over the array of objects to create list items and anchors
 for (const link in links) {
     const listTag = document.createElement('li')
     const anchorTag = document.createElement('a')
     anchorTag.setAttribute("href", links[link].link)
     console.log(links[link].title.length);
-    if(links[link].title.length > 25) listTag.classList.add('grid-two')
+    //checks if the title of the link is over 25 characters and assigns it two grid columns if so else it takes only one
+    if (links[link].title.length > 25) listTag.classList.add('grid-two')
     anchorTag.innerText = links[link].title
+        //adds the created elements in there intended parents
     myLinks.appendChild(listTag)
     listTag.appendChild(anchorTag);
 }
 var anchors = document.querySelectorAll('a');
-
+//forEach loop to add class links to every anchor for styling (Only anchors created above this loop will be affected) 
 [].forEach.call(anchors, function(a) {
     a.classList.add('links')
 });
+//Creates the icons list item (will always be last child thats why its not in the above loop)
 const lastLi = document.createElement('li')
+    //Appends it in the main list
 myLinks.appendChild(lastLi)
 lastLi.style.marginTop = 1.5 + 'rem'
 lastLi.classList.add('grid-two')
+    //Array of objects for the social icons
 const socialLinks = [{
-    'socialLink': 'https://www.instagram.com/ahmedfathy2001/',
-    'icon': 'fa-instagram'
-}, {
-    'socialLink': 'https://twitter.com/ahmedfathy_2001',
-    'icon': 'fa-twitter'
-}, {
-    'socialLink': 'https://www.linkedin.com/in/ahmed-fathy-a112511b4/',
-    'icon': 'fa-linkedin-in'
-}, {
-    'socialLink': 'https://discord.com/users/452192923199733781',
-    'icon': 'fa-discord'
-}]
+        'socialLink': 'https://www.instagram.com/ahmedfathy2001/',
+        'icon': 'fa-instagram'
+    }, {
+        'socialLink': 'https://twitter.com/ahmedfathy_2001',
+        'icon': 'fa-twitter'
+    }, {
+        'socialLink': 'https://www.linkedin.com/in/ahmed-fathy-a112511b4/',
+        'icon': 'fa-linkedin-in'
+    }, {
+        'socialLink': 'https://discord.com/users/452192923199733781',
+        'icon': 'fa-discord'
+    }]
+    // looping around the array of objects to create new list items, anchors, and icons for the social icons
 for (const socialLink in socialLinks) {
     const socialAnchor = document.createElement('a')
     const socialList = document.createElement('li')
@@ -71,8 +78,9 @@ for (const socialLink in socialLinks) {
     socialList.appendChild(socialAnchor)
     lastLi.appendChild(socialList)
 }
+lastLi.classList.add('hover-remove')
 var socialAnchors = document.querySelectorAll('a');
-
+//ForEach loop to loop around all the anchors and sets their target to a new page on click
 [].forEach.call(socialAnchors, function(a) {
     a.setAttribute('target', '_blank')
 });

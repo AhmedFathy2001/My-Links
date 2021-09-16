@@ -7,6 +7,7 @@ html {
 body {
     font-weight: bold;
     background-color: rgb(23, 23, 41);
+    filter: brightness(1.1);
 }
 
 .links {
@@ -18,7 +19,6 @@ body {
 
 .container {
     width: 600px;
-    padding-top: 10px;
 }
 
 .main-img {
@@ -34,6 +34,20 @@ li {
     padding: 1rem 1.25rem;
     border-radius: 7px;
     margin-bottom: .625rem;
+}
+
+#myLinks li:hover {
+    background-color: white;
+}
+
+#myLinks li:hover a {
+    color: rgb(44, 44, 70);
+}
+
+#myLinks li,
+#myLinks li a,
+i {
+    transition: .5s;
 }
 
 .list-styling {
@@ -53,10 +67,6 @@ li:last-child {
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-
-i {
-    transition: .5s;
 }
 
 .list-styling:nth-child(2) a i {
@@ -81,20 +91,42 @@ i {
     grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
 }
-.grid-two{
+
+.grid-two {
     grid-column: 1 / 3;
 }
 
+#myLinks .hover-remove:hover,
+#myLinks .hover-remove li:hover {
+    background-color: rgb(44, 44, 70);
+}
+
 @media screen and (max-width: 576px) {
-    #myLinks{
+    #myLinks {
         display: block;
     }
-    .container{
+    .container {
         max-width: 450px;
     }
 }
+
 @media screen and (max-width: 450px) {
-    .container{
+    .container {
         max-width: 100vw;
+    }
+}
+
+@media screen and (min-height:900px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100vh;
+    }
+    #myLinks {
+        grid-gap: 30px;
+    }
+    .container {
+        width: 900px;
     }
 }

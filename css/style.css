@@ -7,7 +7,6 @@ html {
 body {
     font-weight: bold;
     background-color: rgb(23, 23, 41);
-    filter: brightness(1.1);
 }
 
 .links {

@@ -1,6 +1,5 @@
 html {
     font-size: calc(0.625vmin + 0.75rem);
-    height: 100%;
     width: 100%;
 }
 
@@ -89,6 +88,7 @@ li:last-child {
     padding: 0;
     grid-column-gap: 15px;
     grid-template-columns: 1fr 1fr;
+    margin-bottom: 1.5rem;
 }
 
 .grid-two {

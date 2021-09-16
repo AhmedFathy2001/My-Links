@@ -95,6 +95,6 @@ i {
 }
 @media screen and (max-width: 450px) {
     .container{
-        max-width: 300px;
+        max-width: 100vw;
     }
 }

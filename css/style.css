@@ -11,6 +11,8 @@ body {
 .links {
     text-decoration: none;
     color: white;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
     transition: .5s;
     letter-spacing: .5px;
 }
@@ -45,6 +47,8 @@ li {
 #myLinks li,
 #myLinks li a,
 i {
+    -webkit-transition: .5s;
+    -o-transition: .5s;
     transition: .5s;
 }
 
@@ -55,13 +59,20 @@ i {
 }
 
 li:last-child {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
 .list-styling:nth-child(1) a i {
     background: #d6249f;
+    background: -o-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -80,18 +91,24 @@ li:last-child {
 }
 
 .list-styling i:hover {
+    -webkit-transform: rotate(360deg) scale(1.1);
+    -ms-transform: rotate(360deg) scale(1.1);
     transform: rotate(360deg) scale(1.1);
 }
 
 #myLinks {
+    display: -ms-grid;
     display: grid;
     padding: 0;
     grid-column-gap: 15px;
+    -ms-grid-columns: 1fr 15px 1fr;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 1.5rem;
 }
 
 .grid-two {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
     grid-column: 1 / 3;
 }
 
@@ -116,15 +133,28 @@ li:last-child {
 }
 
 #myLinks li {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
 @media screen and (min-height:900px) {
     body {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
         height: 100vh;
     }

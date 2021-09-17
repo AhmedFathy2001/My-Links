@@ -115,6 +115,12 @@ li:last-child {
     }
 }
 
+#myLinks li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media screen and (min-height:900px) {
     body {
         display: flex;

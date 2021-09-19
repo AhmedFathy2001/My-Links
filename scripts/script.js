@@ -39,6 +39,9 @@ for (const link in links) {
     myLinks.appendChild(listTag)
     listTag.appendChild(anchorTag);
 }
+if (links.length % 2 == 1) {
+    myLinks.firstChild.classList.add('grid-two')
+}
 var anchors = document.querySelectorAll('a');
 //forEach loop to add class links to every anchor for styling (Only anchors created above this loop will be affected) 
 [].forEach.call(anchors, function(a) {

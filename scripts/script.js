@@ -22,7 +22,7 @@ const links = [{
     "title": 'Second website'
 }, {
     "link": "https://ahmedfathydemosites.w3spaces.com/Fokir.html?bypass-cache=1629734379#",
-    "title": 'First site (the first ever site i created)'
+    "title": 'First site (the first ever site I created)'
 }]
 
 const myLinks = document.getElementById('myLinks')

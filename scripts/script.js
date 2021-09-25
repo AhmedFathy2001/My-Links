@@ -1,5 +1,8 @@
 //Array of Objects holding anchor links and there titles
 const links = [{
+    "link": "https://jsdemoapps.w3spaces.com/bookmarker.html?bypass-cache=1632604071",
+    "title": "Poorly designed bookmarker"
+}, {
     "link": "https://jsdemoapps.w3spaces.com/slider.html?bypass-cache=1631452387",
     "title": 'Vanilla js slider with touch support'
 }, {

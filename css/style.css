@@ -28,6 +28,10 @@ body {
     margin-bottom: .625rem;
 }
 
+a {
+    width: 100%;
+}
+
 li {
     list-style: none;
     background-color: rgb(44, 44, 70);

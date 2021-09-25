@@ -34,8 +34,7 @@ for (const link in links) {
     const listTag = document.createElement('li')
     const anchorTag = document.createElement('a')
     anchorTag.setAttribute("href", links[link].link)
-    console.log(links[link].title.length);
-    //checks if the title of the link is over 25 characters and assigns it two grid columns if so else it takes only one
+        //checks if the title of the link is over 25 characters and assigns it two grid columns if so else it takes only one
     if (links[link].title.length > 25) listTag.classList.add('grid-two')
     anchorTag.innerText = links[link].title
         //adds the created elements in there intended parents

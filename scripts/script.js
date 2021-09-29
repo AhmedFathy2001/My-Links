@@ -1,32 +1,44 @@
 //Array of Objects holding anchor links and there titles
 const links = [{
-    "link": "https://jsdemoapps.w3spaces.com/bookmarker.html?bypass-cache=1632604071",
-    "title": "Poorly designed bookmarker"
-}, {
-    "link": "https://jsdemoapps.w3spaces.com/slider.html?bypass-cache=1631452387",
-    "title": 'Vanilla js slider with touch support'
-}, {
-    "link": "https://randomquotegenerator.w3spaces.com/index.html?bypass-cache=1631301814",
-    "title": 'Random Quote Generator'
-}, {
-    "link": "https://jsdemoapps.w3spaces.com/index-CRUD.html?bypass-cache=1630619105",
-    "title": 'CRUD System'
-}, {
-    "link": "https://jsdemoapps.w3spaces.com/index.html?bypass-cache=1630176699",
-    "title": 'First js application (Not responsive)'
-}, {
-    "link": "https://ahmedfathydemosites.w3spaces.com/Bezel.html?bypass-cache=1629515424",
-    "title": 'Fourth website (made only in 15 hours)'
-}, {
-    "link": "https://ahmedfathydemosites.w3spaces.com/Devfolio.html?bypass-cache=1629617546",
-    "title": 'Third website'
-}, {
-    "link": "https://ahmedfathydemosites.w3spaces.com/Simone.html?bypass-cache=1629736247",
-    "title": 'Second website'
-}, {
-    "link": "https://ahmedfathydemosites.w3spaces.com/Fokir.html?bypass-cache=1629734379#",
-    "title": 'First site (the first ever site I created)'
-}]
+        "link": "https://ahmedfathy2001.github.io/login-system/",
+        "title": "Login & registration System"
+    }, {
+        "link": "https://jsdemoapps.w3spaces.com/bookmarker.html?bypass-cache=1632604071",
+        "title": "Poorly designed bookmarker"
+    },
+    {
+        "link": "https://jsdemoapps.w3spaces.com/slider.html?bypass-cache=1631452387",
+        "title": 'Vanilla js slider with touch support'
+    },
+    {
+        "link": "https://randomquotegenerator.w3spaces.com/index.html?bypass-cache=1631301814",
+        "title": 'Random Quote Generator'
+    },
+    {
+        "link": "https://jsdemoapps.w3spaces.com/index-CRUD.html?bypass-cache=1630619105",
+        "title": 'CRUD System'
+    },
+    {
+        "link": "https://jsdemoapps.w3spaces.com/index.html?bypass-cache=1630176699",
+        "title": 'First js application (Not responsive)'
+    },
+    {
+        "link": "https://ahmedfathydemosites.w3spaces.com/Bezel.html?bypass-cache=1629515424",
+        "title": 'Fourth website (made only in 15 hours)'
+    },
+    {
+        "link": "https://ahmedfathydemosites.w3spaces.com/Devfolio.html?bypass-cache=1629617546",
+        "title": 'Third website'
+    },
+    {
+        "link": "https://ahmedfathydemosites.w3spaces.com/Simone.html?bypass-cache=1629736247",
+        "title": 'Second website'
+    },
+    {
+        "link": "https://ahmedfathydemosites.w3spaces.com/Fokir.html?bypass-cache=1629734379#",
+        "title": 'First site (the first ever site I created)'
+    }
+]
 
 const myLinks = document.getElementById('myLinks')
     //looping over the array of objects to create list items and anchors

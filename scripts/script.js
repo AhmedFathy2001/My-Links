@@ -1,5 +1,8 @@
 //Array of Objects holding anchor links and there titles
 const links = [{
+        "link": "https://ahmedfathy2001.github.io/Weather--News-app/",
+        "title": "Weather & News app"
+    }, {
         "link": "https://ahmedfathy2001.github.io/login-system/",
         "title": "Login & registration System"
     }, {
@@ -47,7 +50,7 @@ for (const link in links) {
     const anchorTag = document.createElement('a')
     anchorTag.setAttribute("href", links[link].link)
         //checks if the title of the link is over 25 characters and assigns it two grid columns if so else it takes only one
-    if (links[link].title.length > 25) listTag.classList.add('grid-two')
+    if (links[link].title.length >= 25) listTag.classList.add('grid-two')
     anchorTag.innerText = links[link].title
         //adds the created elements in there intended parents
     myLinks.appendChild(listTag)

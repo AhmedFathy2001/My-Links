@@ -1,5 +1,8 @@
 //Array of Objects holding anchor links and there titles
 const links = [{
+        "link": "https://ahmedfathy2001.github.io/Canvas-testing/",
+        "title": "Bubbles effect"
+    }, {
         "link": "https://ahmedfathy2001.github.io/Weather--News-app/",
         "title": "Weather & News app"
     }, {

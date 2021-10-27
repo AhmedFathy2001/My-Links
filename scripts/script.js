@@ -1,5 +1,8 @@
 //Array of Objects holding anchor links and there titles
 const links = [{
+    "link": "https://ahmedfathy2001.github.io/start-angular",
+    "title": "First Angular Project"
+},{
         "link": "https://ahmedfathy2001.github.io/Shooter/",
         "title": "Shooter game"
     }, {

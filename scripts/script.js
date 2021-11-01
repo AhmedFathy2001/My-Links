@@ -6,9 +6,6 @@ const links = [{
         "link": "https://ahmedfathy2001.github.io/Shooter/",
         "title": "Shooter game"
     }, {
-        "link": "https://ahmedfathy2001.github.io/Canvas-testing/",
-        "title": "Bubbles effect"
-    }, {
         "link": "https://ahmedfathy2001.github.io/Weather--News-app/",
         "title": "Weather & News app"
     }, {
@@ -16,7 +13,7 @@ const links = [{
         "title": "Login & registration System"
     }, {
         "link": "https://jsdemoapps.w3spaces.com/bookmarker.html?bypass-cache=1632604071",
-        "title": "Poorly designed bookmarker"
+        "title": "bookmarker"
     },
     {
         "link": "https://jsdemoapps.w3spaces.com/slider.html?bypass-cache=1631452387",
@@ -28,7 +25,7 @@ const links = [{
     },
     {
         "link": "https://jsdemoapps.w3spaces.com/index-CRUD.html?bypass-cache=1630619105",
-        "title": 'CRUD System'
+        "title": 'CRUD System (Not responsive)'
     },
     {
         "link": "https://jsdemoapps.w3spaces.com/index.html?bypass-cache=1630176699",
@@ -45,10 +42,6 @@ const links = [{
     {
         "link": "https://ahmedfathydemosites.w3spaces.com/Simone.html?bypass-cache=1629736247",
         "title": 'Second website'
-    },
-    {
-        "link": "https://ahmedfathydemosites.w3spaces.com/Fokir.html?bypass-cache=1629734379#",
-        "title": 'First site (the first ever site I created)'
     }
 ]
 

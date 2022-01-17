@@ -1,8 +1,11 @@
 //Array of Objects holding anchor links and there titles
 const links = [{
-    "link": "https://ahmedfathy2001.github.io/start-angular",
-    "title": "First Angular Project"
-},{
+        "link": "https://developmentevents.netlify.app/",
+        "title": "Development Events Application"
+    }, {
+        "link": "https://ahmedfathy2001.github.io/start-angular",
+        "title": "First Angular Project"
+    }, {
         "link": "https://ahmedfathy2001.github.io/Shooter/",
         "title": "Shooter game"
     }, {
@@ -11,7 +14,7 @@ const links = [{
     }, {
         "link": "https://ahmedfathy2001.github.io/login-system/",
         "title": "Login & registration System"
-    }, 
+    },
     {
         "link": "https://jsdemoapps.w3spaces.com/slider.html?bypass-cache=1631452387",
         "title": 'Vanilla js slider with touch support'
@@ -19,7 +22,7 @@ const links = [{
     {
         "link": "https://randomquotegenerator.w3spaces.com/index.html?bypass-cache=1631301814",
         "title": 'Random Quote Generator'
-    },{
+    }, {
         "link": "https://jsdemoapps.w3spaces.com/bookmarker.html?bypass-cache=1632604071",
         "title": "bookmarker"
     },
@@ -45,8 +48,8 @@ const links = [{
     }
 ]
 
-const myLinks = document.getElementById('myLinks')
-    //looping over the array of objects to create list items and anchors
+const myLinks = document.getElementById('myLinks');
+//looping over the array of objects to create list items and anchors
 for (const link in links) {
     const listTag = document.createElement('li')
     const anchorTag = document.createElement('a')

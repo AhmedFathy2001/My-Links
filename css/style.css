@@ -174,3 +174,7 @@ li:last-child {
         width: 900px;
     }
 }
+
+.socials {
+    display: flex;
+}

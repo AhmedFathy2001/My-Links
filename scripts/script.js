@@ -8,17 +8,19 @@ const links = [
     link: "https://space-tourismm.netlify.app",
     title: "Space Tourism",
   },
+
   {
     link: "https://ahmedfathy2001.github.io/start-angular",
     title: "First Angular Project",
   },
+  
   {
     link: "https://ahmedfathy2001.github.io/Shooter/",
     title: "Shooter game",
   },
   {
     link: "https://ahmedfathy2001.github.io/Weather--News-app/",
-    title: "Weather & News application",
+    title: "Weather app",
   },
   {
     link: "https://ahmedfathy2001.github.io/login-system/",
@@ -34,7 +36,7 @@ const links = [
   },
   {
     link: "https://jsdemoapps.w3spaces.com/bookmarker.html?bypass-cache=1632604071",
-    title: "bookmarker",
+    title: "Bookmarker",
   },
   {
     link: "https://jsdemoapps.w3spaces.com/index-CRUD.html?bypass-cache=1630619105",

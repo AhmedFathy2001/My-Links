@@ -1,7 +1,7 @@
 //Array of Objects holding anchor links and there titles
 const links = [
   {
-    link: "  https://entertainment-fem.netlify.app/",
+    link: "https://entertainment-fem.netlify.app/",
     title: "Entertainment app UI with Angular",
   },
   {

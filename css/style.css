@@ -165,7 +165,7 @@ li:last-child {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
-        height: 100vh;
+        min-height: 100vh;
     }
     #myLinks {
         grid-gap: 30px;

@@ -15,7 +15,7 @@ const links = [
   },
 
   {
-    link: "https://ahmedfathy2001.github.io/shooter/",
+    link: "https://ahmedfathy2001.github.io/Shooter/",
     title: "Shooter game",
   },
   {
@@ -35,7 +35,7 @@ const links = [
     title: "Random Quote Generator",
   },
   {
-    link: "https://ahmedfathy2001.github.io/bookmarker",
+    link: "https://ahmedfathy2001.github.io/Bookmarker",
     title: "Bookmarker",
   },
   {
@@ -43,11 +43,11 @@ const links = [
     title: "CRUD App (Not responsive)",
   },
   {
-    link: "https://ahmedfathy2001.github.io/bezel/",
+    link: "https://ahmedfathy2001.github.io/Bezel/",
     title: "Bezel Landing page",
   },
   {
-    link: "https://ahmedfathy2001.github.io/devfolio",
+    link: "https://ahmedfathy2001.github.io/DevFolio",
     title: "Devfolio Landing page",
   },
 ];

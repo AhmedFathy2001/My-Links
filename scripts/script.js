@@ -13,9 +13,9 @@ const links = [
     link: "https://ahmedfathy2001.github.io/start-angular",
     title: "First Angular Project",
   },
-  
+
   {
-    link: "https://ahmedfathy2001.github.io/Shooter/",
+    link: "https://ahmedfathy2001.github.io/shooter/",
     title: "Shooter game",
   },
   {
@@ -27,36 +27,28 @@ const links = [
     title: "Login & registration System",
   },
   {
-    link: "https://jsdemoapps.w3spaces.com/slider.html?bypass-cache=1631452387",
+    link: "https://ahmedfathy2001.github.io/Pop-up-Slider/",
     title: "Vanilla js slider with touch support",
   },
   {
-    link: "https://randomquotegenerator.w3spaces.com/index.html?bypass-cache=1631301814",
+    link: "https://ahmedfathy2001.github.io/Random-Quote-Generator/",
     title: "Random Quote Generator",
   },
   {
-    link: "https://jsdemoapps.w3spaces.com/bookmarker.html?bypass-cache=1632604071",
+    link: "https://ahmedfathy2001.github.io/bookmarker",
     title: "Bookmarker",
   },
   {
-    link: "https://jsdemoapps.w3spaces.com/index-CRUD.html?bypass-cache=1630619105",
-    title: "CRUD System (Not responsive)",
+    link: "https://ahmedfathy2001.github.io/crud-app",
+    title: "CRUD App (Not responsive)",
   },
   {
-    link: "https://jsdemoapps.w3spaces.com/index.html?bypass-cache=1630176699",
-    title: "First js application (Not responsive)",
+    link: "https://ahmedfathy2001.github.io/bezel/",
+    title: "Bezel Landing page",
   },
   {
-    link: "https://ahmedfathydemosites.w3spaces.com/Bezel.html?bypass-cache=1629515424",
-    title: "Third website (made only in 15 hours)",
-  },
-  {
-    link: "https://ahmedfathydemosites.w3spaces.com/Devfolio.html?bypass-cache=1629617546",
-    title: "Second website",
-  },
-  {
-    link: "https://ahmedfathydemosites.w3spaces.com/Simone.html?bypass-cache=1629736247",
-    title: "First website",
+    link: "https://ahmedfathy2001.github.io/devfolio",
+    title: "Devfolio Landing page",
   },
 ];
 
@@ -108,6 +100,11 @@ const socialLinks = [
     socialLink: "https://discord.com/users/452192923199733781",
     icon: "fa-discord",
     title: "discord",
+  },
+  {
+    socialLink: "https://www.upwork.com/freelancers/~01d265643dcac8d4b2",
+    icon: "fa-upwork",
+    title: "upwork",
   },
 ];
 var socialListUl = document.createElement("ul");

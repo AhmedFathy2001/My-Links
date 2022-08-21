@@ -1,180 +1,206 @@
 html {
-    font-size: calc(0.625vmin + 0.75rem);
-    width: 100%;
+  font-size: calc(0.625vmin + 0.75rem);
+  width: 100%;
 }
 
 body {
-    font-weight: bold;
-    background-color: rgb(23, 23, 41);
+  font-weight: bold;
+  background-color: rgb(23, 23, 41);
 }
 
 .links {
-    text-decoration: none;
-    color: white;
-    -webkit-transition: .5s;
-    -o-transition: .5s;
-    transition: .5s;
-    letter-spacing: .5px;
+  text-decoration: none;
+  color: white;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  letter-spacing: 0.5px;
 }
 
 .container {
-    width: 600px;
+  width: 600px;
 }
 
 .main-img {
-    width: 6.25rem;
-    height: 6.25rem;
-    border-radius: 50%;
-    margin-bottom: .625rem;
+  width: 6.25rem;
+  height: 6.25rem;
+  border-radius: 50%;
+  margin-bottom: 0.625rem;
 }
 
 #myLinks li a {
-    width: 100%;
-    padding: 1rem 1.25rem;
+  width: 100%;
+  padding: 1rem 1.25rem;
 }
 
 li {
-    list-style: none;
-    background-color: rgb(44, 44, 70);
-    border-radius: 7px;
-    margin-bottom: .625rem;
+  list-style: none;
+  background-color: rgb(44, 44, 70);
+  border-radius: 7px;
+  margin-bottom: 0.625rem;
 }
 
 #myLinks li:hover {
-    background-color: white;
+  background-color: white;
 }
 
 #myLinks li:hover a {
-    color: rgb(44, 44, 70);
+  color: rgb(44, 44, 70);
 }
 
 #myLinks li,
 #myLinks li a,
 i {
-    -webkit-transition: .5s;
-    -o-transition: .5s;
-    transition: .5s;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .list-styling {
-    font-size: 1.5rem;
-    padding: 0 1.2rem;
-    margin: 0;
+  font-size: 1.5rem;
+  padding: 0 1.2rem;
+  margin: 0;
 }
 
 #myLinks li .list-styling a {
-    padding: 1rem 0;
+  padding: 1rem 0;
 }
 
 li:last-child {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .list-styling:nth-child(1) a i {
-    background: #d6249f;
-    background: -o-radial-gradient(30% 107%, circle, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: #d6249f;
+  background: -o-radial-gradient(
+    30% 107%,
+    circle,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .list-styling:nth-child(2) a i {
-    color: #00B6F1;
+  color: #00b6f1;
 }
 
 .list-styling:nth-child(3) a i {
-    color: #0077b5;
+  color: #0077b5;
 }
 
 .list-styling:nth-child(4) a i {
-    color: #738ADB;
+  color: #738adb;
 }
 
 .list-styling i:hover {
-    -webkit-transform: rotate(360deg) scale(1.1);
-    -ms-transform: rotate(360deg) scale(1.1);
-    transform: rotate(360deg) scale(1.1);
+  -webkit-transform: rotate(360deg) scale(1.1);
+  -ms-transform: rotate(360deg) scale(1.1);
+  transform: rotate(360deg) scale(1.1);
 }
 
 #myLinks {
-    display: -ms-grid;
-    display: grid;
-    padding: 0;
-    grid-column-gap: 15px;
-    -ms-grid-columns: 1fr 15px 1fr;
-    grid-template-columns: 1fr 1fr;
-    margin-bottom: 1.5rem;
+  display: -ms-grid;
+  display: grid;
+  padding: 0;
+  grid-column-gap: 15px;
+  -ms-grid-columns: 1fr 15px 1fr;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 1.5rem;
 }
 
 .grid-two {
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 2;
-    grid-column: 1 / 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1 / 3;
 }
 
 #myLinks .hover-remove:hover,
 #myLinks .hover-remove li:hover {
-    background-color: rgb(44, 44, 70);
+  background-color: rgb(44, 44, 70);
 }
 
 @media screen and (max-width: 576px) {
-    #myLinks {
-        display: block;
-    }
-    .container {
-        max-width: 450px;
-    }
+  #myLinks {
+    display: block;
+  }
+  .container {
+    max-width: 450px;
+  }
 }
 
 @media screen and (max-width: 450px) {
-    .container {
-        max-width: 100vw;
-    }
+  .container {
+    max-width: 100vw;
+  }
 }
 
 #myLinks li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media screen and (min-height: 900px) {
+  body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-}
-
-@media screen and (min-height:900px) {
-    body {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        min-height: 100vh;
-    }
-    #myLinks {
-        grid-gap: 30px;
-    }
-    .container {
-        width: 900px;
-    }
+    min-height: 100vh;
+  }
+  #myLinks {
+    grid-gap: 30px;
+  }
+  .container {
+    width: 900px;
+  }
 }
 
 .socials {
-    display: flex;
+  display: flex;
+}
+
+.fa-upwork::after {
+  content: url("https://api.iconify.design/simple-icons/upwork.svg?color=white");
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #14a800;
+  border-radius: 50%;
 }
